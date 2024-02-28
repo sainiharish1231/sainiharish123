@@ -1,13 +1,7 @@
-import useWindowSize from "@/hooks/useWindowSize;";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
-import { Button, Container, Input, Logo } from ".";
-import { Fade } from "react-awesome-reveal";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const { width } = useWindowSize();
-  const toggleMenu = () => setMenu(!menu);
   const closeMenu = () => setMenu(false);
 
   const refMenu = useRef(null);

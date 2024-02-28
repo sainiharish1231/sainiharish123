@@ -5,7 +5,7 @@ export const list_collection = [
     price: 1.646567,
     image: "/collections/collection1.png",
     product_name: "Milvago chimachima",
-    category: "art",
+    category: "Art",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const list_collection = [
     price: 3.457135,
     image: "/collections/collection2.png",
     product_name: "Castor fiber",
-    category: "art",
+    category: "Art",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const list_collection = [
     price: 2.34111,
     image: "/collections/collection3.png",
     product_name: "Ara ararauna",
-    category: "art",
+    category: "Art",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const list_collection = [
     price: 2.610668,
     image: "/collections/collection4.png",
     product_name: "Meleagris gallopavo",
-    category: "sport",
+    category: "Sport",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const list_collection = [
     price: 2.130348,
     image: "/collections/collection5.png",
     product_name: "Tachybaptus ruficollis",
-    category: "sport",
+    category: "Sport",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const list_collection = [
     price: 3.053478,
     image: "/collections/collection6.png",
     product_name: "Pycnonotus nigricans",
-    category: "sport",
+    category: "Sport",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const list_collection = [
     price: 2.636318,
     image: "/collections/collection7.png",
     product_name: "Carduelis pinus",
-    category: "photography",
+    category: "Photography",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const list_collection = [
     price: 3.81189,
     image: "/collections/collection8.png",
     product_name: "Bubalornis niger",
-    category: "photography",
+    category: "Photography",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const list_collection = [
     price: 4.304832,
     image: "/collections/collection9.png",
     product_name: "Semnopithecus entellus",
-    category: "photography",
+    category: "Photography",
   },
 ];
 
