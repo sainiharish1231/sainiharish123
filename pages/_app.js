@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/NavBar";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -39,6 +40,8 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
+
+      <Navbar />
       <Component {...pageProps} />
     </>
   );

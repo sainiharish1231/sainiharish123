@@ -1,22 +1,38 @@
+"use client";
 import Link from "next/link";
 import Logo from "./Logo";
 import { useState } from "react";
+import useWindowSize from "@/hooks/useWindowSize;";
+import Button from "./Button";
 
 const Navbar = () => {
+  const [isFlex, setIsFlex] = useState(false);
+  const { width } = useWindowSize();
+  const handleClick = () => {
+    setIsFlex(!isFlex);
+  };
   return (
     <>
-      <div className="top-[10px]  left-[20px] fixed">
+      <div className="top-[10px]  left-[20px] fixed ">
         <div className={"flex justify-between items-center sm:hidden"}>
           <Logo />
         </div>
       </div>
+
       <div className=" top-[15px]  right-[20px] fixed">
         <div className={"flex justify-between items-center sm:hidden"}>
-          <img src="/icons/menu.svg" />
+          <Button id="navBtn" onClick={handleClick}>
+            <img src="/icons/menu.svg" />
+          </Button>
         </div>
       </div>
-      <div className={`Navbar  `}>
-        <div className={`Nav `}>
+
+      <div
+        className={`Navbar ${
+          isFlex ? "flex" : width <= 600 ? "hidden" : "flex"
+        }`}
+      >
+        <div className={`Nav flex `}>
           <Link href="/">
             <a>
               <div
