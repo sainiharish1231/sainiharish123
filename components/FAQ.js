@@ -19,7 +19,7 @@ const FAQ = () => {
   };
 
   return (
-    <Container className={"mb-44 scroll-mt-10 mt-60"} id="faq">
+    <Container className={"mb-44 scroll-mt-10 mt-20 sm:mt-60"} id="faq">
       <div className="text-center mb-10">
         <h2 className="font-bold mx-auto leading-snug w-full sm:w-[400px] text-3xl mb-2">
           Freaquently Asked Question

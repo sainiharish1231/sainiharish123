@@ -5,7 +5,7 @@ import { fadeInDownShorter2, fadeInLeft } from "@/keyframes";
 import Image from "next/image";
 const AboutUs = () => {
   return (
-    <Container className={"mb-44 scroll-mt-10 mt-60"} id="about">
+    <Container className={"mb-44 scroll-mt-10 mt-60 sm:mt-60"} id="about">
       <div className="text-center mb-8">
         <h2 className="font-bold text-3xl mb-2">About Us</h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>

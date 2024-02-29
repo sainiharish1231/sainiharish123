@@ -38,7 +38,7 @@ const Collections = () => {
   }, [activeBtn]);
 
   return (
-    <Container id="collections" className={"mb-44 scroll-mt-10"}>
+    <Container id="collections" className={"mb-44 mt-10 scroll-mt-10"}>
       <div className="text-center mb-8">
         <h2 className="font-bold text-3xl mb-2">Collection</h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
