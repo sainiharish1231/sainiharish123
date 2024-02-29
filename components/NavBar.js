@@ -3,7 +3,6 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { useState } from "react";
 import useWindowSize from "@/hooks/useWindowSize;";
-import Button from "./Button";
 
 const Navbar = () => {
   const [isFlex, setIsFlex] = useState(false);
@@ -21,9 +20,9 @@ const Navbar = () => {
 
       <div className=" top-[15px]  right-[20px] fixed">
         <div className={"flex justify-between items-center sm:hidden"}>
-          <Button id="navBtn" onClick={handleClick}>
+          <button id="navBtn" onClick={handleClick}>
             <img src="/icons/menu.svg" />
-          </Button>
+          </button>
         </div>
       </div>
 
@@ -40,13 +39,17 @@ const Navbar = () => {
                 className="   menu-icon  mr-[4rem] h-[4rem]  w-[3rem] grid place-items-center  relative  "
               >
                 <svg width="26" height="26">
-                  Home
                   <path
                     d="M6.75006 25.3909C4.679 25.3909 3.00006 23.7119 3.00006 21.6409V14.1409H1.75006C0.636433 14.1409 0.078725 12.7944 0.866181 12.007L12.1162 0.756986C12.6043 0.26883 13.3958 0.26883 13.8839 0.756986L25.1339 12.007C25.9214 12.7944 25.3637 14.1409 24.2501 14.1409H23.0001V21.6409C23.0001 23.7119 21.3211 25.3909 19.2501 25.3909H6.75006ZM13.0001 3.40864L4.6887 11.72C5.16269 11.8976 5.50006 12.3549 5.50006 12.8909V21.6409C5.50006 22.3312 6.05971 22.8909 6.75006 22.8909L9.25006 22.8896L9.25006 17.8909C9.25006 16.5102 10.3694 15.3909 11.7501 15.3909H14.2501C15.6308 15.3909 16.7501 16.5102 16.7501 17.8909L16.7501 22.8896L19.2501 22.8909C19.9404 22.8909 20.5001 22.3312 20.5001 21.6409V12.8909C20.5001 12.3549 20.8374 11.8976 21.3114 11.72L13.0001 3.40864ZM14.2501 17.8909H11.7501L11.7501 22.8896H14.2501L14.2501 17.8909Z"
                     fill="white"
                   />
                 </svg>
-                <div className=" tooltip relative font-[600]">Home</div>
+                <div
+                  onClick={handleClick}
+                  className=" tooltip relative font-[600]"
+                >
+                  Home
+                </div>
               </div>
             </a>
           </Link>
@@ -62,7 +65,12 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div className="tooltip relative font-[600]">About</div>
+                <div
+                  onClick={handleClick}
+                  className="tooltip relative font-[600]"
+                >
+                  About
+                </div>
               </div>
             </a>
           </Link>
@@ -78,7 +86,12 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div className="tooltip relative font-[600]">Skills</div>
+                <div
+                  onClick={handleClick}
+                  className="tooltip relative font-[600]"
+                >
+                  Skills
+                </div>
               </div>
             </a>
           </Link>
@@ -95,7 +108,12 @@ const Navbar = () => {
                   />
                 </svg>
 
-                <div className="tooltip relative font-[600]">Projects</div>
+                <div
+                  onClick={handleClick}
+                  className="tooltip relative font-[600]"
+                >
+                  Projects
+                </div>
               </div>
             </a>
           </Link>
@@ -111,7 +129,12 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div className="tooltip relative font-[600]">Contact</div>
+                <div
+                  onClick={handleClick}
+                  className="tooltip relative font-[600]"
+                >
+                  Contact
+                </div>
               </div>
             </a>
           </Link>
