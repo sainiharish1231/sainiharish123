@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="w-[300px] mb-10 lg:mb-0 mr-10 lg:mr-28">
           <Logo />
           <p className="mt-5">
-            The best NFT marketplace website in the world and feel your
-            experience in selling or buy our work
+            I'm deeply passionate about leveraging technology to solve
+            real-world problems and deliver impactful solutions.
           </p>
         </div>
         <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -94,8 +94,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mb-8">
-        &copy; <span className="font-bold mr-1">Joonacode </span>
-        Desain By <span className="font-bold ml-1">Zarror</span>
+        &copy; <span className="font-bold mr-1">sainiharish123 </span>
+        Desain By <span className="font-bold ml-1">Harish</span>
       </div>
       <div
         onClick={scrollToTop}
