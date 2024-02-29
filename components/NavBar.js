@@ -12,13 +12,13 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="top-[10px]  left-[20px] fixed ">
+      <div className=" z-[1000]  top-[10px]  left-[20px] fixed ">
         <div className={"flex justify-between items-center sm:hidden"}>
           <Logo />
         </div>
       </div>
 
-      <div className=" top-[15px]  right-[20px] fixed">
+      <div className=" z-[1000]  top-[15px]  right-[20px] fixed">
         <div className={"flex justify-between items-center sm:hidden"}>
           <button id="navBtn" onClick={handleClick}>
             <img src="/icons/menu.svg" />
@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`Navbar ${
+        className={`Navbar z-[1000] ${
           isFlex ? "flex" : width <= 600 ? "hidden" : "flex"
         }`}
       >

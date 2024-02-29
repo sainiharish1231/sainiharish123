@@ -12,7 +12,6 @@ const Sponsor = () => {
             layout="fill"
             objectFit="contain"
             objectPosition={"center"}
-            height={"500px"}
             src="/SANRAJ.svg"
             alt="binance"
           />

@@ -27,30 +27,30 @@ const FeaturedArtworks = () => {
           </Reveal>
         ))}
       </div>
-      <div class="container my-24 mx-auto md:px-6">
-        <section class="mb-32 text-center lg:text-left">
-          <h2 class="mb-12 text-center text-3xl font-bold">
+      <div className="container my-24 mx-auto md:px-6">
+        <section className="mb-32 text-center lg:text-left">
+          <h2 className="mb-12 text-center text-3xl font-bold">
             Projects we are proud of
           </h2>
 
-          <div class="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12 ">
+          <div className="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12 ">
             <div
-              class="mb-6 block rounded-lg 
+              className="mb-6 block rounded-lg 
                 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]   
                 lg:mb-0"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
-              <div class="relative overflow-hidden bg-cover bg-no-repeat bg-[#0000ff] ">
+              <div className="relative overflow-hidden bg-cover bg-no-repeat bg-[#0000ff] ">
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg"
-                  class="w-full  rounded-t-lg"
+                  className="w-full  rounded-t-lg"
                 />
                 <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
+                  <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                 </a>
                 <svg
-                  class="absolute left-0 bottom-0     "
+                  className="absolute left-0 bottom-0     "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -60,9 +60,9 @@ const FeaturedArtworks = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-6">
-                <h5 class="mb-4 text-lg font-bold">Nostalgic waves</h5>
-                <p class="mb-6">
+              <div className="p-6">
+                <h5 className="mb-4 text-lg font-bold">Nostalgic waves</h5>
+                <p className="mb-6">
                   Ut pretium ultricies dignissim. Sed sit amet mi eget urna
                   placerat vulputate. Ut vulputate est non quam dignissim
                   elementum. Donec a ullamcorper diam.
@@ -71,7 +71,7 @@ const FeaturedArtworks = () => {
                   href="#!"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal    shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                  className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal    shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                 >
                   Learn more
                 </a>
@@ -79,27 +79,27 @@ const FeaturedArtworks = () => {
             </div>
 
             <div
-              class="mb-6 block rounded-lg  
+              className="mb-6 block rounded-lg  
              shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]   lg:mb-0"
             >
               <div
-                class="relative overflow-hidden bg-cover bg-no-repeat "
+                className="relative overflow-hidden bg-cover bg-no-repeat "
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/nature/114.jpg"
-                  class="w-full rounded-t-lg "
+                  className="w-full rounded-t-lg "
                 />
                 <a href="#!">
                   <div
-                    class="absolute top-0 right-0 bottom-0
+                    className="absolute top-0 right-0 bottom-0
                    left-0 h-full w-full bg-fixed opacity-0 transition duration-300 
                    ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"
                   ></div>
                 </a>
                 <svg
-                  class="absolute left-0 bottom-0     "
+                  className="absolute left-0 bottom-0     "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -109,9 +109,9 @@ const FeaturedArtworks = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-6">
-                <h5 class="mb-4 text-lg font-bold">Winter wildlife</h5>
-                <p class="mb-6">
+              <div className="p-6">
+                <h5 className="mb-4 text-lg font-bold">Winter wildlife</h5>
+                <p className="mb-6">
                   Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
                   diam orci, nec ornare metus semper sed. Integer volutpat
                   ornare erat sit amet rutrum.
@@ -120,7 +120,7 @@ const FeaturedArtworks = () => {
                   href="#!"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="inline-block rounded bg-primary px-6 pb-2 
+                  className="inline-block rounded bg-primary px-6 pb-2 
                   pt-2.5 text-xs font-medium uppercase leading-normal  
                     shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150
                      ease-in-out hover:bg-primary-600 
@@ -136,24 +136,24 @@ const FeaturedArtworks = () => {
               </div>
             </div>
 
-            <div class="block rounded-lg   shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
+            <div className="block rounded-lg   shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
               <div
-                class="relative overflow-hidden bg-cover bg-no-repeat"
+                className="relative overflow-hidden bg-cover bg-no-repeat"
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/nature/117.jpg"
-                  class="w-full rounded-t-lg"
+                  className="w-full rounded-t-lg"
                 />
                 <a href="#!">
                   <div
-                    class="absolute top-0 right-0 bottom-0
+                    className="absolute top-0 right-0 bottom-0
                    left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"
                   ></div>
                 </a>
                 <svg
-                  class="absolute left-0 bottom-0     "
+                  className="absolute left-0 bottom-0     "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -163,9 +163,9 @@ const FeaturedArtworks = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-6">
-                <h5 class="mb-4 text-lg font-bold">Camping travel</h5>
-                <p class="mb-6">
+              <div className="p-6">
+                <h5 className="mb-4 text-lg font-bold">Camping travel</h5>
+                <p className="mb-6">
                   Curabitur tristique, mi a mollis sagittis, metus felis mattis
                   arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
                   massa volutpat feugiat.
@@ -174,7 +174,7 @@ const FeaturedArtworks = () => {
                   href="#!"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal    shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                  className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal    shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                 >
                   Learn more
                 </a>

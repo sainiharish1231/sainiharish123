@@ -8,46 +8,46 @@ const Home = () => {
       <div className="h-full overflow-hidden mt-30 sm:mt-60" id="top">
         <Hero />
         <Sponsor />
-        <section class="container mx-auto px-6 p-10">
-          <h2 class="text-4xl font-bold text-center  mb-8">Features</h2>
-          <div class="container my-24 mx-auto md:px-6">
-            <section class="mb-32 text-center md:text-left">
-              <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
+        <section className="container mx-auto px-6 p-10">
+          <h2 className="text-4xl font-bold text-center  mb-8">Features</h2>
+          <div className="container my-24 mx-auto md:px-6">
+            <section className="mb-32 text-center md:text-left">
+              <div className="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
                 <Reveal
                   keyframes={fadeInDownShorter}
                   duration={450}
                   delay={289}
                 >
-                  <div class="mb-6 md:mb-0">
+                  <div className="mb-6 md:mb-0">
                     <div
-                      class="relative mb-6 overflow-hidden
+                      className="relative mb-6 overflow-hidden
                    rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
                       data-te-ripple-init
                       data-te-ripple-color="light"
                     >
                       <img
                         src="https://mdbcdn.b-cdn.net/img/new/standard/city/018.jpg"
-                        class="w-full"
+                        className="w-full"
                         alt="Louvre"
                       />
 
                       <a href="#!">
-                        <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
+                        <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                       </a>
                     </div>
                   </div>
                   <div>
-                    <h3 class="mb-3 text-2xl font-bold">
+                    <h3 className="mb-3 text-2xl font-bold">
                       Welcome to California
                     </h3>
-                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
+                    <div className="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke-width="2"
                         stroke="currentColor"
-                        class="mr-2 h-5 w-5"
+                        className="mr-2 h-5 w-5"
                       >
                         <path
                           stroke-linecap="round"
@@ -57,13 +57,13 @@ const Home = () => {
                       </svg>
                       Travels
                     </div>
-                    <p class="mb-6   ">
+                    <p className="mb-6   ">
                       <small>
                         Published <u>13.01.2022</u> by
                         <a href="#!">Anna Maria Doe</a>
                       </small>
                     </p>
-                    <p class="   ">
+                    <p className="   ">
                       Ut pretium ultricies dignissim. Sed sit amet mi eget urna
                       placerat vulputate. Ut vulputate est non quam dignissim
                       elementum. Donec a ullamcorper diam.
@@ -72,27 +72,29 @@ const Home = () => {
                 </Reveal>
               </div>
 
-              <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
-                <div class="mb-6 md:order-2 md:mb-0">
+              <div className="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
+                <div className="mb-6 md:order-2 md:mb-0">
                   <div
-                    class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                    className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
                     data-te-ripple-init
                     data-te-ripple-color="light"
                   >
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/standard/city/032.jpg"
-                      class="w-full"
+                      className="w-full"
                       alt="Louvre"
                     />
 
                     <a href="#!">
-                      <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
+                      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                     </a>
                   </div>
                 </div>
-                <div class="md:order-1">
-                  <h3 class="mb-3 text-2xl font-bold">Exhibition in Paris</h3>
-                  <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
+                <div className="md:order-1">
+                  <h3 className="mb-3 text-2xl font-bold">
+                    Exhibition in Paris
+                  </h3>
+                  <div className="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
                     {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +102,7 @@ const Home = () => {
                       viewBox="0 0 24 24"
                       stroke-width="2"
                       stroke="currentColor"
-                      class="mr-2 h-4 w-4"
+                      className="mr-2 h-4 w-4"
                     >
                       <path
                         stroke-linecap="round"
@@ -110,13 +112,13 @@ const Home = () => {
                     </svg>
                     Art
                   </div>
-                  <p class="mb-6    ">
+                  <p className="mb-6    ">
                     <small>
                       Published <u>12.01.2022</u> by
                       <a href="#!">Halley Frank</a>
                     </small>
                   </p>
-                  <p class="   ">
+                  <p className="   ">
                     Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
                     diam orci, nec ornare metus semper sed. Integer volutpat
                     ornare erat sit amet rutrum.
@@ -124,29 +126,31 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
+              <div className="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
                 <Reveal keyframes={fadeInUp} duration={450} delay={289}>
-                  <div class="mb-6 md:mb-0">
+                  <div className="mb-6 md:mb-0">
                     <div
-                      class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                      className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
                       data-te-ripple-init
                       data-te-ripple-color="light"
                     >
                       <img
                         src="https://mdbcdn.b-cdn.net/img/new/standard/city/059.jpg"
-                        class="w-full"
+                        className="w-full"
                         alt="Louvre"
                       />
 
                       <a href="#!">
-                        <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
+                        <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                       </a>
                     </div>
                   </div>
 
                   <div>
-                    <h3 class="mb-3 text-2xl font-bold">Stock market boom</h3>
-                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600 md:justify-start">
+                    <h3 className="mb-3 text-2xl font-bold">
+                      Stock market boom
+                    </h3>
+                    <div className="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600 md:justify-start">
                       {" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +158,7 @@ const Home = () => {
                         viewBox="0 0 24 24"
                         stroke-width="2"
                         stroke="currentColor"
-                        class="mr-2 h-5 w-5"
+                        className="mr-2 h-5 w-5"
                       >
                         <path
                           stroke-linecap="round"
@@ -164,13 +168,13 @@ const Home = () => {
                       </svg>
                       Business
                     </div>
-                    <p class="mb-6    ">
+                    <p className="mb-6    ">
                       <small>
                         Published <u>10.01.2022</u> by
                         <a href="#!">Joe Svan</a>
                       </small>
                     </p>
-                    <p class="   ">
+                    <p className="   ">
                       Curabitur tristique, mi a mollis sagittis, metus felis
                       mattis arcu, non vehicula nisl dui quis diam. Mauris ut
                       risus eget massa volutpat feugiat. Donec.
@@ -182,30 +186,30 @@ const Home = () => {
           </div>
 
           <Reveal keyframes={fadeInRight} duration={450} delay={289}>
-            <div class="container my-24 mx-auto md:px-6">
-              <section class="mb-32">
-                <div class="container mx-auto text-center lg:text-left xl:px-32">
-                  <div class="flex grid items-center lg:grid-cols-2">
-                    <div class="mb-12 lg:mb-0">
-                      <div class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
-                        <h2 class="mb-8 text-3xl font-bold">
+            <div className="container my-24 mx-auto md:px-6">
+              <section className="mb-32">
+                <div className="container mx-auto text-center lg:text-left xl:px-32">
+                  <div className="flex  items-center lg:grid-cols-2">
+                    <div className="mb-12 lg:mb-0">
+                      <div className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                        <h2 className="mb-8 text-3xl font-bold">
                           Enjoy the moment
                         </h2>
-                        <p class="mb-8 pb-2     lg:pb-0">
+                        <p className="mb-8 pb-2     lg:pb-0">
                           Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. A soluta corporis voluptate ab error quam
                           dolores doloremque, quae consectetur.
                         </p>
 
-                        <div class="mx-auto mb-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
-                          <p class="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+                        <div className="mx-auto mb-8 flex flex-col md:flex-row md:justify-around lg:justify-between">
+                          <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke-width="2"
                               stroke="currentColor"
-                              class="mr-2 h-5 w-5"
+                              className="mr-2 h-5 w-5"
                             >
                               <path
                                 stroke-linecap="round"
@@ -216,14 +220,14 @@ const Home = () => {
                             Best team
                           </p>
 
-                          <p class="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
+                          <p className="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke-width="2"
                               stroke="currentColor"
-                              class="mr-2 h-5 w-5"
+                              className="mr-2 h-5 w-5"
                             >
                               <path
                                 stroke-linecap="round"
@@ -234,14 +238,14 @@ const Home = () => {
                             Best quality
                           </p>
 
-                          <p class="mx-auto mb-2 flex items-center md:mx-0 lg:mb-0">
+                          <p className="mx-auto mb-2 flex items-center md:mx-0 lg:mb-0">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke-width="2"
                               stroke="currentColor"
-                              class="mr-2 h-5 w-5"
+                              className="mr-2 h-5 w-5"
                             >
                               <path
                                 stroke-linecap="round"
@@ -253,7 +257,7 @@ const Home = () => {
                           </p>
                         </div>
 
-                        <p class="mb-0    ">
+                        <p className="mb-0    ">
                           In ac turpis justo. Vivamus auctor quam vitae odio
                           feugiat pulvinar. Sed semper ligula sed lorem
                           tincidunt dignissim. Nam sed cursus lectus. Proin non
@@ -276,7 +280,7 @@ const Home = () => {
                     <div>
                       <img
                         src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/117.jpg"
-                        class="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                        className="w-full rounded-lg shadow-lg dark:shadow-black/20"
                         alt="image"
                       />
                     </div>
@@ -286,34 +290,34 @@ const Home = () => {
             </div>
           </Reveal>
 
-          <div class="container my-12 mx-auto md:px-6">
-            <section class="mb-32 text-center">
-              <div class="px-6 py-12 md:px-12">
-                <div class="container mx-auto xl:px-32">
-                  <div class="flex grid items-center lg:grid-cols-2">
-                    <div class="md:mb-12 lg:mb-0">
+          <div className="container my-12 mx-auto md:px-6">
+            <section className="mb-32 text-center">
+              <div className="px-6 py-12 md:px-12">
+                <div className="container mx-auto xl:px-32">
+                  <div className="flex items-center lg:grid-cols-2">
+                    <div className="md:mb-12 lg:mb-0">
                       <img
                         src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/053.jpg"
-                        class="lg:rotate-[-3deg] w-full rounded-lg shadow-lg dark:shadow-black/20"
+                        className="lg:rotate-[-3deg] w-full rounded-lg shadow-lg dark:shadow-black/20"
                         alt="image"
                       />
                     </div>
-                    <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+                    <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                       <div
-                        class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] 
+                        className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] 
                      py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
                       backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20
                        md:py-12 lg:-ml-14"
                       >
-                        <h1 class="mt-2 mb-8 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
+                        <h1 className="mt-2 mb-8 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
                           Time is money <br />
-                          <span class="text-primary dark:text-primary-400">
+                          <span className="text-primary dark:text-primary-400">
                             Do it now!
                           </span>
                         </h1>
                         <button
                           type="button"
-                          class="inline-block rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                          className="inline-block rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                           data-te-ripple-init
                           data-te-ripple-color="light"
                         >
