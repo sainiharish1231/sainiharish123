@@ -10,7 +10,7 @@ import {
 } from "@/keyframes";
 const Home = () => {
   return (
-    <div className="h-full overflow-hidden mt-60" id="top">
+    <div className="h-full overflow-hidden mt-30 sm:mt-60" id="top">
       <Hero />
       <Sponsor />
       <section class="container mx-auto px-6 p-10">

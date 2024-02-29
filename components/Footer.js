@@ -57,19 +57,18 @@ const Footer = () => {
             <p className="font-bold text-xl mb-5">Contact</p>
             <div className="flex flex-col">
               <Link href="/">
-                <a className="mb-4 opacity-50">+012 3456789</a>
-              </Link>
-              <Link href="/">
-                <a className="mb-5 opacity-50">adorableprogrammer@gmail.com</a>
+                <a className="mb-5 opacity-50">sainiharish258@gmail.com</a>
               </Link>
               <div className="flex items-center">
                 <div className="mr-10 cursor-pointer">
-                  <Image
-                    src="/icons/youtube.svg"
-                    width={34}
-                    height={34}
-                    alt="youtube"
-                  />
+                  <Link href="https://www.youtube.com/c/sainiharish123">
+                    <Image
+                      src="/icons/youtube.svg"
+                      width={34}
+                      height={34}
+                      alt="youtube"
+                    />
+                  </Link>
                 </div>
                 <div className="mr-10 cursor-pointer">
                   <Image
@@ -80,12 +79,14 @@ const Footer = () => {
                   />
                 </div>
                 <div className="cursor-pointer">
-                  <Image
-                    src="/icons/instagram.svg"
-                    width={30}
-                    height={30}
-                    alt="instagram"
-                  />
+                  <Link href={"https://www.instagram.com/sainiharish123"}>
+                    <Image
+                      src="/icons/instagram.svg"
+                      width={30}
+                      height={30}
+                      alt="instagram"
+                    />
+                  </Link>
                 </div>
               </div>
             </div>

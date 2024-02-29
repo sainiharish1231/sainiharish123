@@ -5,7 +5,7 @@ import { fadeInUp } from "@/keyframes";
 import Image from "next/image";
 const Sponsor = () => {
   return (
-    <Container className={"grid grid-cols-3 gap-5 mb-32 items-center"}>
+    <Container className={"grid grid-cols-3 gap-5  items-center"}>
       <Reveal keyframes={fadeInUp} duration={800} delay={200}>
         <div className="flex items-center justify-center relative w-full h-[60px]">
           <Image

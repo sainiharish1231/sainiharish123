@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="w-full sm:w-[50%] pr-0 sm:pr-10 lg:pr-20 mt-[20px] sm:mt-5 lg:mt-10">
         <Reveal keyframes={fadeInLeft} duration={800} delay={200}>
           <h1 className="text-3xl lg:text-6xl font-bold mb-5">
-            welcome... <br /> To my website
+            Welcome... <br /> To my website
           </h1>
           <h2 className="font-bold"> Hello! I'm Harish</h2>
           <h6>

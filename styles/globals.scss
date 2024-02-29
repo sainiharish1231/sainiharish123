@@ -39,7 +39,6 @@
     transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
-    /* Note: backdrop-filter has minimal browser support */
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 80%;
@@ -49,7 +48,30 @@
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
+
+    @media (max-width: 640px) {
+      position: fixed;
+      z-index: 1000;
+      top: 70px;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(5px);
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      width: 95%;
+      height: 380px;
+      padding: 12px 0;
+      display: none;
+      align-items: start;
+      transition: all 0.3s ease-in-out;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      background-color: rgba(172, 2, 245, 0.204);
+    }
   }
+
   .toggle__menu {
     display: block;
   }
@@ -60,18 +82,26 @@
   .menu-icon {
     margin: 0 1rem;
     height: 4rem;
-    width: 4rem;
+    width: auto;
     display: grid;
+
     place-items: center;
     transition: all 0.2s ease-in-out;
     position: relative;
+    @media (max-width: 640px) {
+      display: flex;
+    }
   }
 
   .tooltip {
     position: relative;
+
     font-weight: 600;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
+    @media (max-width: 640px) {
+      margin-left: 40px;
+    }
   }
 
   .menu-icon:hover path {
