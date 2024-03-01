@@ -5,11 +5,11 @@
 @import "tailwindcss/utilities";
 
 .main_bg {
-  background: #430adfc7;
-  background: linear-gradient(
-    -95deg,
-    rgb(14, 41, 199) 0%,
-    rgb(0, 38, 255) 100%
+  background: rgb(50, 183, 234);
+  background: radial-gradient(
+    circle,
+    rgb(64, 118, 226) 0%,
+    rgb(33, 35, 192) 100%
   );
 }
 
@@ -100,6 +100,8 @@
     color: rgb(255, 255, 255);
     @media (max-width: 640px) {
       margin-left: 40px;
+
+      width: 370px;
     }
   }
 
@@ -111,6 +113,9 @@
     cursor: pointer;
     transform: scale(1.1);
     color: #0307ff;
+    @media (max-width: 640px) {
+      transform: scale(1);
+    }
   }
 }
 .About {
