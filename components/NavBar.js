@@ -35,6 +35,7 @@ const Navbar = () => {
           <Link href="/">
             <a>
               <div
+                onClick={handleClick}
                 id="home"
                 className="   menu-icon  mr-[4rem] h-[4rem]  w-[3rem] grid place-items-center  relative  "
               >
@@ -44,18 +45,14 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div
-                  onClick={handleClick}
-                  className=" tooltip relative font-[600]"
-                >
-                  Home
-                </div>
+                <div className=" tooltip relative font-[600]">Home</div>
               </div>
             </a>
           </Link>
           <Link href="/About">
             <a>
               <div
+                onClick={handleClick}
                 id="about"
                 className=" menu-icon  mr-[4rem] h-[4rem] w-[3rem] grid place-items-center  relative "
               >
@@ -65,18 +62,14 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div
-                  onClick={handleClick}
-                  className="tooltip relative font-[600]"
-                >
-                  About
-                </div>
+                <div className="tooltip relative font-[600]">About</div>
               </div>
             </a>
           </Link>
           <Link href="/Skill">
             <a>
               <div
+                onClick={handleClick}
                 id="skills"
                 className=" menu-icon mr-[4rem] h-[4rem]  w-[3rem] grid place-items-center  relative "
               >
@@ -86,18 +79,14 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div
-                  onClick={handleClick}
-                  className="tooltip relative font-[600]"
-                >
-                  Skills
-                </div>
+                <div className="tooltip relative font-[600]">Skills</div>
               </div>
             </a>
           </Link>
           <Link href="/Projects">
             <a>
               <div
+                onClick={handleClick}
                 id="projects"
                 className=" menu-icon  mr-[4rem] h-[4rem] w-[3rem] grid place-items-center  relative "
               >
@@ -108,18 +97,14 @@ const Navbar = () => {
                   />
                 </svg>
 
-                <div
-                  onClick={handleClick}
-                  className="tooltip relative font-[600]"
-                >
-                  Projects
-                </div>
+                <div className="tooltip relative font-[600]">Projects</div>
               </div>
             </a>
           </Link>
           <Link href="/Contact">
             <a>
               <div
+                onClick={handleClick}
                 id="contact"
                 className=" menu-icon mr-[4rem] h-[4rem] w-[3rem] grid place-items-center  relative "
               >
@@ -129,12 +114,7 @@ const Navbar = () => {
                     fill="white"
                   />
                 </svg>
-                <div
-                  onClick={handleClick}
-                  className="tooltip relative font-[600]"
-                >
-                  Contact
-                </div>
+                <div className="tooltip relative font-[600]">Contact</div>
               </div>
             </a>
           </Link>
